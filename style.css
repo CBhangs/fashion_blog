@@ -1,0 +1,86 @@
+body {
+    border-left: 5px solid lightgray;
+    min-height: 100vh;
+    font-family:sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header { 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+main {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.title {
+    color: tomato;
+}
+
+img {
+    width: 100%;
+}
+
+.topMenus {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.top {
+    color: lightgray;
+}
+
+.bottomMenus {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom {
+    color: tomato;
+}
+
+.blogTitle {
+    font-size: 40px;
+}
+
+.continue {
+    color: tomato;
+    font-weight: bold;
+}
+
+article {
+    margin-bottom: 4rem;
+    border: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+
+p::first-letter {
+    color: tomato;
+    font-size: 100px;
+    float: left;
+    line-height: 35px;
+    padding-top: 15px;
+    padding-right: 8px;
+    padding-left: 25px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
